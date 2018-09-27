@@ -1,0 +1,28 @@
+
+FUNCIONALIDADE 1
+(br.com.fiap.speventos.teste.Funcionalidade1.java)
+
+	* Nessa funcionalidade, podemos inserir uma nova Realizacao de Evento relacionada a um Evento já cadastrado.
+
+	* O usuario insere as datas e horas de inicio e termino. Em seguida informa se deseja ou nao realizar uma busca
+	por um local ja cadastrado no banco (busca por nome).
+	
+	* Caso ele encontre um local com o endereco desejado, ele pode inserir o codigo do local e nao precisa
+	apresentar mais informacoes.
+	
+	* Caso ele nao opte pela busca ou nao tenha encontrado na lista o local desejado, o usuario pode digitar as devidas
+	informacoes (nome do local e endereco) e cadastrar novo local.
+
+
+FUNCIONALIDADE 2
+(br.com.fiap.speventos.teste.Funcionalidade2.java)
+
+	* Nessa funcionalidade, podemos consultar todas as Realizacoes de Evento (ocorrências) de um determinado Evento. 
+
+	* Essa consulta sera feita a partir do nome do Evento ou de uma parte do nome. 
+
+	* As Realizacoes de Evento encontradas serao listadas na console.
+
+	* Caso a busca nao retorne nenhuma ocorrência, o programa ira apresentar essa informacao.
+
+

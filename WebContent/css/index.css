@@ -1,0 +1,151 @@
+/* Importing Google fonts */
+@import
+	url("https://fonts.googleapis.com/css?family=Nunito:300,400,700,800,900")
+	;
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #262626;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.field {
+	display: block;
+	width: 440px;
+	line-height: 20px;
+	margin: 20px 0;
+	padding: 10px 5px;
+	font-size: 14px;
+	border: 0;
+	border-bottom: 2px #fff solid;
+	color: #fff;
+	background: #515151;
+}
+
+.chatbot {
+	margin: 15px 40px;
+	padding: 3px 15px;
+	background: #214BB5;
+	color: white;
+	width: 240px;
+	border-radius: 6px;
+	box-shadow: 0.05em 0.05em #555555;
+	float: left;
+}
+
+.chatuser {
+	margin: 15px 40px;
+	padding: 3px 15px;
+	background: #EEE7E0;
+	color: black;
+	width: 200px;
+	border-radius: 6px;
+	float: right;
+	box-shadow: 0.05em 0.05em #555555;
+	text-align: right;
+}
+
+.iconbot {
+/*
+	background: #EEE7E0;
+*/
+	background: #FFFFFF;
+	border-radius: 50%;
+	border: 4px #214BB5 solid;
+	margin-left: -40px;
+	margin-right: 10px;
+	float: left;
+	box-shadow: 0.05em 0.05em #333333;
+
+}
+
+.iconuser {
+
+	background: #FFFFFF;
+	border-radius: 50%;
+	border: 4px #214BB5 solid;
+	margin-left: 10px;
+	margin-right: -40px;
+	float: right;
+	box-shadow: 0.05em 0.05em #333333;
+}
+
+h2 {
+	text-align: center;
+	color: #fff;
+	font-family: 'nunito', sans-serif, arial;
+/*	text-transform: uppercase; */
+	font-size: 24px;
+}
+
+button {
+	display: block;
+	background: #86817C;
+	font-size: 16px;
+	color: #fff;
+	padding: 10px 20px;
+	border: 0;
+	border-bottom: 2px #54504C solid;
+	border-radius: 3px;
+	position: relative;
+	left: 40%;
+	text-shadow: 0.05em 0.05em black;
+}
+
+button:hover {
+	background: #54504C;
+	cursor: pointer;
+}
+
+.pulse {
+	width: 450px;
+	height: 350px;
+	background: #fff;
+	color: #262626;
+/*	text-transform: uppercase;  */
+	font-size: 16px;
+	font-family: Arial, verdana;
+	overflow: scroll;
+}
+
+.pulse-animation {
+	animation: animate 3s linear infinite;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+.titulo_evento {
+	font-size: 18px;
+}
+
+@keyframes animate {
+	0% 
+	{
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, .7), 0 0 0 0 rgba(255, 255, 255, .7);
+	}
+	40% 
+	{
+		box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 0 rgba(255, 255, 255, .7);
+	}
+	80% 
+	{
+		box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 15px rgba(255, 255, 255, 0);
+	}
+	100% 
+	{
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 0 15px rgba(255, 255, 255, 0);
+	}
+}
